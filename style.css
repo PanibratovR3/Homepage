@@ -2,4 +2,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: cornflowerblue;
+    /* min-height: 150px; */
+    /* flex: 3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* transform: rotate(-10deg); */
+}
+
+
+.header-image-placeholder {
+    width: 450px;
+    height: 450px;
+    /* flex: 1; */
+    background: url("Images/Profile.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header-image-footer {
+    position: relative;
+    top: 85%;
+    color: white;
+    /* transform: translateY(700%); */
+    font-size: 1.9rem;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+
+.header-container {
+    display: flex;
+    /* transform: rotate(10deg); */
+}
+
+.header-info {
+    background-color: wheat;
+    margin: 80px 0;
+    padding: 10px;
+    max-width: 400px;
+}
+
+.header-about {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.header-text {
+    font-size: 1.1rem;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: end;
+    padding: 5px 0;
+}
+
+i {
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
 }
