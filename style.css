@@ -13,13 +13,16 @@ body {
 
 .header {
     background-color: cornflowerblue;
-    /* min-height: 150px; */
-    /* flex: 3; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    /* transform: rotate(-10deg); */
+    transform-origin: bottom right;
+    transform: translateX(3px) translateY(-200px) rotate(-3deg);
+}
+
+.header-container {
+    display: flex;
+    transform: translateY(200px) rotate(3deg);
 }
 
 
@@ -36,7 +39,6 @@ body {
     position: relative;
     top: 85%;
     color: white;
-    /* transform: translateY(700%); */
     font-size: 1.9rem;
     padding: 5px;
     text-align: center;
@@ -45,10 +47,7 @@ body {
 }
 
 
-.header-container {
-    display: flex;
-    /* transform: rotate(10deg); */
-}
+
 
 .header-info {
     background-color: wheat;
