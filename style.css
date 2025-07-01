@@ -27,7 +27,6 @@ body {
 .header-image-placeholder {
     width: 450px;
     height: 450px;
-    /* flex: 1; */
     background: url("Images/Profile.jpg");
     background-size: cover;
     background-position: center;
@@ -86,7 +85,7 @@ a {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 4fr));
+    grid-template-columns: repeat(auto-fit, minmax(310px, 4fr));
     gap: 16px;
 }
 
@@ -132,4 +131,8 @@ a {
 .project-item img {
     object-fit: cover;
     width: 100%;
+}
+
+.footer {
+    background-color: cornflowerblue;
 }
