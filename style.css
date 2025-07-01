@@ -159,7 +159,20 @@ a {
     height: 100%;
 }
 
+.footer-text {
+    font-size: 1.3rem;
+}
+
 .contact-text {
     padding: 10px 0;
     font-size: 1.3rem;
+}
+
+.footer-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer-icons i {
+    font-size: 3rem;
 }
