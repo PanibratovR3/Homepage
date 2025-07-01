@@ -81,6 +81,7 @@ a {
 .projects-header {
     font-size: 2.1rem;
     padding: 50px;
+    font-weight: bold;
 }
 
 .projects-container {
@@ -137,11 +138,16 @@ a {
     background-color: cornflowerblue;
     padding: 50px;
     display: flex;
-        color: white;
+    color: white;
+}
+
+.footer-info-container {
+    flex: 1;
 }
 
 .footer-info-header {
     font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .icon-placeholder {
