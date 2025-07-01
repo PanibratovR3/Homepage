@@ -201,3 +201,33 @@ a {
 .footer-icons i {
     font-size: 3rem;
 }
+
+@media (max-width: 750px) {
+    .header-image-placeholder {
+        max-width: 300px;
+        max-height: 300px;
+        margin-left: 10px;
+    }
+    .header-info {
+        display: block;
+        max-width: 200px;
+        margin: 0;
+        margin-right: 250px;
+        height: auto;
+        display: inline-block;
+    }
+
+    .projects-header {
+        padding-left: 150px;
+    }
+
+    /* .projects-container {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .project-item {
+        max-width: 320px;
+        margin-left: 70px;
+    }
+}
