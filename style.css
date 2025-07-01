@@ -87,13 +87,15 @@ a {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 16px;
 }
 
 .project-item {
     max-width: 320px;
     box-shadow: 1px 2px 3px;
     transition: transform 2s linear;
+    background-color: lightgray;
 }
 
 .project-item:hover {
