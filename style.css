@@ -8,7 +8,6 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 .header {
@@ -87,7 +86,7 @@ a {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(290px, 4fr));
     gap: 16px;
 }
 
@@ -128,4 +127,9 @@ a {
     font-size: 1.1rem;
     padding: 10px;
     font-style: italic;
+}
+
+.project-item img {
+    object-fit: cover;
+    width: 100%;
 }
