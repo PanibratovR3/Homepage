@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     transform-origin: bottom right;
-    transform: translateX(3px) translateY(-200px) rotate(-3deg);
+    transform: translateX(2px) translateY(-200px) rotate(-3deg);
 }
 
 .header-container {
