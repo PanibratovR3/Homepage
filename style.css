@@ -273,4 +273,8 @@ a {
     .footer img {
         width: 100%;
     }
+
+    .contact-text {
+        font-size: 1rem;
+    }
 }
